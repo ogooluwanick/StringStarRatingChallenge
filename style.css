@@ -1,0 +1,47 @@
+body{
+        background-color: steelblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        user-select: none;
+}
+
+main{
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 3px;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+        min-width: 20rem;
+        min-height: 6.5rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+#ratebox{
+        background-color: black;
+        padding: 0.4rem;
+        min-height: 3rem;
+        min-width: 15rem;
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        align-items: center;
+}
+
+#star{
+        width: 30px;
+        height: 30px;
+}
+
+#star:hover{
+        outline: 3px solid white;
+}
+
+.empty{
+        width: 45px;
+        height: 45px;
+}
